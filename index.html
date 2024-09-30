@@ -31,12 +31,33 @@
   <polaris-chip title="Sports are the only thing that matter"></polaris-chip>
   <polaris-chip title="Grants and donations"></polaris-chip>
 
+  <div>
+    <p>Stuff</p>
+  </div>  
+
+  <div class="control-wrapper">
+    <button class="duplicate">Clone Card</button>
+    <button id="bg-change">Change background</button>
+    <button id="change-title">Change Title</button>
+    <button id="change-image">Change Image</button>
+    <button id="delete-card">Remove</button>
+  </div>
+
   <h1>my-card</h1>
-  <my-card></my-card>
+  <my-card>
+    <ul>
+      <li>Good waste of time</li>
+      <li>Great way to spend your money</li>
+      <li>New DLC Final Shape</li>
+      </ul>
+  </my-card>
 
   <!-- this is what is bringing in the definition for this tag -->
   <script type="module" src="./src/polaris-chip.js"></script>
   <script type="module" src="./src/my-card.js"></script>
+
+  <script type="module" src="./src/my-card.js">
+  </script>
 </body>
 
 </html>
